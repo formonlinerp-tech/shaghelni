@@ -13,6 +13,8 @@ const providerRoutes = ['/provider']
 const clientRoutes = ['/dashboard']
 
 export async function middleware(request: NextRequest) {
+  return NextResponse.next() // Temporarily disabled for debugging
+  
   const { pathname } = request.nextUrl
 
   // Check if route is protected
