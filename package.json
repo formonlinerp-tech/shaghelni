@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
-    "@next/swc-win32-x64-msvc": "^16.3.4",
     "@node-rs/bcrypt": "^1.9.2",
     "@prisma/client": "^5.10.0",
     "@radix-ui/react-avatar": "^1.0.4",
